@@ -3,7 +3,8 @@
 import React from "react";
 import Link from "next/link";
 import { useState } from "react";
-import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   const [toggleDropdown, setToggleDropdown] = useState(false);
@@ -37,12 +38,8 @@ const Header = () => {
       {/** Mobile Navigation */}
       <div className="sm:hidden flex relative">
         <div className="flex">
-          <Image
-            src="/next.svg"
-            width={37}
-            height={37}
-            className="rounded-full"
-            alt="profile"
+          <FontAwesomeIcon
+            icon={faBars}
             onClick={() => setToggleDropdown((prev) => !prev)}
           />
           {toggleDropdown && (

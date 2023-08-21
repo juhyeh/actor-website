@@ -3,14 +3,14 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div>
+    <div class="absolute inset-x-0 bottom-0">
       <div className="social_media_links">
         <a href="https://www.facebook.com" target="_blank">
           <Image
             src="/facebook-logo.png"
             alt="facebook-logo"
-            width={30}
-            height={30}
+            width={33}
+            height={33}
             className="socials_logo"
           />
         </a>
@@ -18,8 +18,8 @@ const Footer = () => {
           <Image
             src="/instagram-logo.png"
             alt="instagram-logo"
-            width={30}
-            height={30}
+            width={33}
+            height={33}
             className="socials_logo"
           />
         </a>
@@ -27,8 +27,8 @@ const Footer = () => {
           <Image
             src="/twitter-logo.png"
             alt="twitter-logo"
-            width={30}
-            height={30}
+            width={33}
+            height={33}
             className="socials_logo"
           />
         </a>
@@ -36,8 +36,8 @@ const Footer = () => {
           <Image
             src="/imdb-logo.png"
             alt="imdb-logo"
-            width={30}
-            height={30}
+            width={33}
+            height={33}
             className="socials_logo"
           />
         </a>
@@ -45,13 +45,15 @@ const Footer = () => {
           <Image
             src="/youtube-logo.png"
             alt="youtube-logo"
-            width={30}
-            height={30}
+            width={33}
+            height={33}
             className="socials_logo"
           />
         </a>
       </div>
-      <div>contact@luismeraz.com</div>
+      <div class="text-neutral-700/60 drop-shadow-md flex justify-center pb-10">
+        contact@luismeraz.com
+      </div>
     </div>
   );
 };

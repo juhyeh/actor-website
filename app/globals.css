@@ -21,7 +21,7 @@
 }
 
 .social_media_links {
-  @apply flex p-3;
+  @apply flex p-3 justify-center;
 }
 
 .socials_logo {
