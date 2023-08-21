@@ -10,10 +10,11 @@ const Header = () => {
   const [toggleDropdown, setToggleDropdown] = useState(false);
 
   return (
-    <nav className="flex-between w-full mb-16 pt-3">
+    <nav>
       {/** Desktop Navigation */}
-      <div className="sm:flex hidden">
-        <div className="flex gap-3 md:gap-5">
+      {/* <div className="sm:flex hidden"> */}
+      <div className="header">
+        <div class="flex justify-center p-8">
           <Link href="/" className="black_btn">
             HOME
           </Link>

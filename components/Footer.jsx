@@ -51,9 +51,7 @@ const Footer = () => {
           />
         </a>
       </div>
-      <div class="text-neutral-700/60 drop-shadow-md flex justify-center pb-10">
-        contact@luismeraz.com
-      </div>
+      <div className="footer_email">contact@luismeraz.com</div>
     </div>
   );
 };

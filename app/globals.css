@@ -4,12 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.dropdown_link {
-  @apply text-sm text-gray-700 hover:text-gray-500 font-medium;
-}
-
+/* Nav/Header component */
 .black_btn {
-  @apply transition-all hover:underline text-center text-sm flex items-center justify-center;
+  @apply transition-all hover:underline hover:underline-offset-8 text-center text-lg flex items-center justify-center text-neutral-700/60 drop-shadow-md px-14;
 }
 
 .dropdown {
@@ -18,6 +15,11 @@
 
 .dropdown_link {
   @apply text-sm text-gray-700 hover:text-gray-500 font-medium;
+}
+
+/* Footer Styles */
+.footer_email {
+  @apply text-neutral-700/60 drop-shadow-md flex justify-center pb-10;
 }
 
 .social_media_links {
