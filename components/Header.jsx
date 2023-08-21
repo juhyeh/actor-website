@@ -12,9 +12,8 @@ const Header = () => {
   return (
     <nav>
       {/** Desktop Navigation */}
-      {/* <div className="sm:flex hidden"> */}
       <div className="header">
-        <div class="flex justify-center p-8">
+        <div class="flex justify-center items-center p-10">
           <Link href="/" className="black_btn">
             HOME
           </Link>
