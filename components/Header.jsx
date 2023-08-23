@@ -10,15 +10,15 @@ const Header = () => {
   const [toggleDropdown, setToggleDropdown] = useState(false);
 
   return (
-    <nav>
+    <nav class="flex-between w-full mb-16 pt-3">
       {/** Desktop Navigation */}
-      <div className="header">
-        <div class="flex justify-center items-center p-10">
+      <div class="sm:flex hidden justify-center items-center">
+        <div class="flex justify-center items-center p-10 gap-[8vw]">
           <Link href="/" className="black_btn">
             HOME
           </Link>
           <Link href="/aboutme" className="black_btn">
-            ABOUT ME
+            ABOUT
           </Link>
           <Link href="/resume" className="black_btn">
             RESUME
@@ -36,10 +36,11 @@ const Header = () => {
       </div>
 
       {/** Mobile Navigation */}
-      <div className="sm:hidden flex relative">
-        <div className="flex">
+      <div class="sm:hidden flex absolute p-5 top-0 right-0">
+        <div class="flex">
           <FontAwesomeIcon
             icon={faBars}
+            size="lg"
             onClick={() => setToggleDropdown((prev) => !prev)}
           />
           {toggleDropdown && (

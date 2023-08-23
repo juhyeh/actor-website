@@ -3,7 +3,8 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div class="absolute inset-x-0 bottom-0">
+    // <div class="relative h-32 w-32">
+    <div class="relative inset-x-0 bottom-0">
       <div className="social_media_links">
         <a href="https://www.facebook.com" target="_blank">
           <Image
@@ -53,6 +54,7 @@ const Footer = () => {
       </div>
       <div className="footer_email">contact@luismeraz.com</div>
     </div>
+    // </div>
   );
 };
 

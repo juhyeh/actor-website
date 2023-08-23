@@ -5,8 +5,12 @@
 @tailwind utilities;
 
 /* Nav/Header component */
+.app {
+  @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
+}
+
 .black_btn {
-  @apply relative ml-36 tracking-[1px] text-neutral-700/60 drop-shadow-md hover:text-gray-600 text-lg;
+  @apply relative tracking-[1px] text-neutral-700/60 drop-shadow-md hover:text-gray-600 text-sm lg:text-lg flex items-center justify-center;
 }
 .black_btn::after {
   @apply content-[''] bg-gray-600 h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-300;
@@ -24,6 +28,9 @@
 }
 
 /* Footer Styles */
+.footer {
+}
+
 .footer_email {
   @apply text-neutral-700/60 drop-shadow-md flex justify-center pb-10;
 }
