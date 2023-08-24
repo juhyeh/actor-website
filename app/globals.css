@@ -13,10 +13,10 @@
   @apply relative tracking-[1px] text-neutral-700/60 drop-shadow-md hover:text-gray-600 text-sm lg:text-lg flex items-center justify-center;
 }
 .black_underline {
-  @apply relative tracking-[1px] underline text-gray-600 text-sm lg:text-lg drop-shadow-md underline-offset-[10px] decoration-[1.5px];
+  @apply relative tracking-[1px] underline text-gray-600 text-sm lg:text-lg drop-shadow-md underline-offset-[9px] decoration-[1.5px];
 }
 .black_btn::after {
-  @apply content-[''] bg-gray-600 h-[1px] w-[0%] left-0 -bottom-[3px] rounded-xl absolute duration-300;
+  @apply content-[''] bg-gray-600 h-[1.5px] w-[0%] left-0 -bottom-[3px] rounded-xl absolute duration-300;
 }
 .black_btn:hover::after {
   @apply w-[100%];
@@ -31,9 +31,6 @@
 }
 
 /* Footer Styles */
-.footer {
-}
-
 .footer_email {
   @apply text-neutral-700/60 drop-shadow-md flex justify-center pb-10;
 }
@@ -44,4 +41,16 @@
 
 .socials_logo {
   @apply px-0.5;
+}
+
+/* Resume Page */
+.resume_section {
+  @apply container flex flex-col sm:flex-row;
+}
+
+.resume_section_title {
+  @apply text-3xl font-semibold basis-2/6 pb-5;
+}
+.resume_body {
+  @apply basis-4/6 text-sm;
 }

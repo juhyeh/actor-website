@@ -4,9 +4,9 @@ import Image from "next/image";
 
 const AboutMe = () => {
   return (
-    <div class="flex flex-row">
-      <div>
-        <p>
+    <div class="flex">
+      <div class="flex flex-col items-center md:flex-row max-w-screen-md">
+        <p class="pb-5">
           Luis Meraz is a Mexican actor and improviser. Against many odds,
           he&apos;s achieved his version of the American Dream. He worked for
           many of the tech titans of our day. With no time to waste, he&apos;s
@@ -16,13 +16,14 @@ const AboutMe = () => {
           wittiness. Oh, he&apos;s fucking witty. He asks you, can we play
           already?
         </p>
+        <Image
+          src="/luis-meraz-headshot-commercial.png"
+          width={300}
+          height={300}
+          alt="Luiz Meraz Photo"
+          class="py-5"
+        />
       </div>
-      <Image
-        src="/luis-meraz-headshot-commercial.png"
-        width={300}
-        height={300}
-        alt="Luiz Meraz Photo"
-      />
     </div>
   );
 };
