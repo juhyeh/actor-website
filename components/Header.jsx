@@ -3,11 +3,13 @@
 import React from "react";
 import Link from "next/link";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   const [toggleDropdown, setToggleDropdown] = useState(false);
+  const pathName = usePathname();
 
   return (
     <nav class="w-full mb-16 pt-3 absolute top-0">
@@ -15,22 +17,40 @@ const Header = () => {
       {/** Desktop Navigation */}
       <div class="sm:flex hidden justify-center items-center">
         <div class="flex justify-center items-center p-10 gap-[8vw]">
-          <Link href="/" className="black_btn">
+          <Link
+            href="/"
+            className={pathName == "/" ? "black_underline" : "black_btn"}
+          >
             HOME
           </Link>
-          <Link href="/about" className="black_btn">
+          <Link
+            href="/about"
+            className={pathName == "/about" ? "black_underline" : "black_btn"}
+          >
             ABOUT
           </Link>
-          <Link href="/resume" className="black_btn">
+          <Link
+            href="/resume"
+            className={pathName == "/resume" ? "black_underline" : "black_btn"}
+          >
             RESUME
           </Link>
-          <Link href="/gallery" className="black_btn">
+          <Link
+            href="/gallery"
+            className={pathName == "/gallery" ? "black_underline" : "black_btn"}
+          >
             GALLERY
           </Link>
-          <Link href="/press" className="black_btn">
+          <Link
+            href="/press"
+            className={pathName == "/press" ? "black_underline" : "black_btn"}
+          >
             PRESS
           </Link>
-          <Link href="/contact" className="black_btn">
+          <Link
+            href="/contact"
+            className={pathName == "/contact" ? "black_underline" : "black_btn"}
+          >
             CONTACT
           </Link>
         </div>
