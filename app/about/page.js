@@ -6,9 +6,9 @@ const About = () => {
   return (
     <div class="flex">
       <div class="flex flex-col items-center md:flex-row max-w-screen-md">
-        <div class="flex justify-start w-full">
+        <heading class="flex justify-start w-full">
           <p className="page_heading_mobile">About</p>
-        </div>
+        </heading>
         <p class="pb-5">
           Luis Meraz is a Mexican actor and improviser. Against many odds,
           he&apos;s achieved his version of the American Dream. He worked for

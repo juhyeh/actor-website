@@ -3,9 +3,9 @@ import React from "react";
 const Resume = () => {
   return (
     <div class="max-w-screen-md flex flex-col justify-center items-center">
-      <div class="flex justify-start w-full">
+      <heading class="flex justify-start w-full">
         <p className="page_heading_mobile">Resume</p>
-      </div>
+      </heading>
       <a
         class="bg-black text-sm text-white py-4 px-7"
         href="/files/luis-meraz-actor-resume.pdf"
