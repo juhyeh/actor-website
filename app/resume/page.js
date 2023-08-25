@@ -2,7 +2,7 @@ import React from "react";
 
 const Resume = () => {
   return (
-    <div class="max-w-screen-md mt-[11rem] flex flex-col justify-center items-center">
+    <div class="max-w-screen-md flex flex-col justify-center items-center">
       <a
         class="bg-black text-sm text-white py-4 px-7"
         href="/files/luis-meraz-actor-resume.pdf"

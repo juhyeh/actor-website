@@ -12,7 +12,7 @@ const Header = () => {
   const pathName = usePathname();
 
   return (
-    <nav class="w-full mb-16 pt-3 absolute top-0">
+    <nav class="w-full mb-16 pt-3 top-0">
       {/**flex-between */}
       {/** Desktop Navigation */}
       <div class="sm:flex hidden justify-center items-center">
@@ -74,7 +74,7 @@ const Header = () => {
                 Home
               </Link>
               <Link
-                href="/aboutme"
+                href="/about"
                 className="dropdown_link"
                 onClick={() => setToggleDropdown(false)}
               >

@@ -2,7 +2,7 @@ import React from "react";
 
 import Image from "next/image";
 
-const AboutMe = () => {
+const About = () => {
   return (
     <div class="flex">
       <div class="flex flex-col items-center md:flex-row max-w-screen-md">
@@ -28,4 +28,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default About;
