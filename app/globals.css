@@ -13,7 +13,7 @@
   @apply relative tracking-[1px] text-neutral-700/60 drop-shadow-md hover:text-gray-600 text-sm lg:text-lg flex items-center justify-center;
 }
 .black_underline {
-  @apply relative tracking-[1px] underline text-gray-600 text-sm lg:text-lg drop-shadow-md underline-offset-[9px] decoration-[1.5px];
+  @apply relative tracking-[1px] font-extrabold text-gray-600 text-sm lg:text-lg drop-shadow-md decoration-[1.5px];
 }
 .black_btn::after {
   @apply content-[''] bg-gray-600 h-[1.5px] w-[0%] left-0 -bottom-[3px] rounded-xl absolute duration-300;
@@ -23,7 +23,7 @@
 }
 
 .dropdown {
-  @apply absolute right-0 top-full mt-3 w-full p-5 rounded-lg bg-white min-w-[210px] flex flex-col gap-2 justify-end items-end;
+  @apply absolute right-0 top-full mt-3 w-full p-5 rounded-lg bg-white min-w-[150px] flex flex-col gap-2 justify-end items-end drop-shadow-md;
 }
 
 .dropdown_link {
@@ -32,7 +32,7 @@
 
 /* Footer Styles */
 .footer_email {
-  @apply text-neutral-700/60 drop-shadow-md flex justify-center pb-10;
+  @apply text-neutral-700/60 drop-shadow-md flex justify-center pb-10 font-mono text-sm;
 }
 
 .social_media_links {
@@ -49,8 +49,12 @@
 }
 
 .resume_section_title {
-  @apply text-3xl font-semibold basis-2/6 pb-5;
+  @apply text-3xl font-semibold basis-2/6 pb-5 font-mono;
 }
 .resume_body {
-  @apply basis-4/6 text-sm;
+  @apply basis-4/6 text-sm font-light text-neutral-700/60 font-mono;
+}
+
+.page_heading_mobile {
+  @apply text-3xl pb-[4rem] sm:hidden text-neutral-700/80 tracking-widest font-mono;
 }

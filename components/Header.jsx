@@ -13,7 +13,6 @@ const Header = () => {
 
   return (
     <nav class="w-full mb-16 pt-3 top-0">
-      {/**flex-between */}
       {/** Desktop Navigation */}
       <div class="sm:flex hidden justify-center items-center">
         <div class="flex justify-center items-center p-10 gap-[8vw]">
@@ -78,7 +77,7 @@ const Header = () => {
                 className="dropdown_link"
                 onClick={() => setToggleDropdown(false)}
               >
-                About Me
+                About
               </Link>
               <Link
                 href="/resume"
