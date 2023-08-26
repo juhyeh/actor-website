@@ -7,7 +7,7 @@ const Resume = () => {
         <p className="page_heading_mobile">Resume</p>
       </heading>
       <a
-        class="bg-black text-sm text-white py-4 px-7"
+        class="bg-black text-sm text-white py-4 px-7 mt-4"
         href="/files/luis-meraz-actor-resume.pdf"
         download
       >

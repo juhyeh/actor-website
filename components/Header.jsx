@@ -12,7 +12,7 @@ const Header = () => {
   const pathName = usePathname();
 
   return (
-    <nav class="w-full mb-16 pt-3 top-0">
+    <nav class="w-full pb-8 pt-3 top-0">
       {/** Desktop Navigation */}
       <div class="sm:flex hidden justify-center items-center">
         <div class="flex justify-center items-center p-10 gap-[8vw]">

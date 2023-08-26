@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div class="pt-11">
+    <div class="pt-11 footer">
       <div className="social_media_links">
         <a href="https://www.facebook.com/itsluismeraz" target="_blank">
           <Image

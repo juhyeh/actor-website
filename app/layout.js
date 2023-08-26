@@ -7,7 +7,7 @@ import Provider from "/components/Provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Luis Meraz-Actor",
+  title: "Luis Meraz - Actor",
   description: "Discover Actor Luis Meraz",
 };
 

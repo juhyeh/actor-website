@@ -24,7 +24,7 @@ body {
   @apply relative tracking-[1px] text-neutral-700/60 drop-shadow-md hover:text-gray-600 text-sm lg:text-lg flex items-center justify-center;
 }
 .black_underline {
-  @apply relative tracking-[1px] font-extrabold text-gray-600 text-sm lg:text-lg decoration-[1.5px];
+  @apply relative tracking-[1px] text-gray-600 text-sm lg:text-lg decoration-[1.5px] font-semibold;
 }
 .black_btn::after {
   @apply content-[''] bg-gray-600 h-[1.5px] w-[0%] left-0 -bottom-[3px] rounded-xl absolute duration-300;
@@ -34,20 +34,66 @@ body {
 }
 
 .dropdown {
-  @apply absolute right-0 top-full mt-3 w-full p-5 rounded-lg bg-white min-w-[150px] flex flex-col gap-2 justify-end items-end drop-shadow-md;
+  @apply absolute right-0 top-full mt-3 w-full p-5 rounded-lg bg-white min-w-[150px] flex flex-col gap-2 justify-end items-end drop-shadow-md z-30;
 }
 
 .dropdown_link {
   @apply text-sm text-gray-700 hover:text-gray-500 font-medium;
 }
 
+@keyframes slideInLeft {
+  from {
+    transform: translateY(-60px);
+    opacity: 0%;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 100%;
+  }
+}
+
+@keyframes opacityIn {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+.luisMeraz {
+  animation-name: slideInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+}
+
+.actor {
+  animation-name: slideInLeft;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+}
+
 /* Footer Styles */
 .footer_email {
   @apply text-neutral-700/60 drop-shadow-md flex justify-center pb-10 font-mono text-sm;
+  animation-name: opacityIn;
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
 }
 
 .social_media_links {
   @apply flex p-3 justify-center;
+  animation-name: opacityIn;
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
 }
 
 .socials_logo {
