@@ -115,3 +115,14 @@ body {
 .page_heading_mobile {
   @apply text-3xl pb-[4rem] sm:hidden text-neutral-700/80 tracking-widest font-mono;
 }
+
+/* Gallery Page */
+.reel {
+  @apply pb-6;
+}
+.reels_section {
+  @apply flex flex-col md:flex-row;
+}
+.gallery_titles {
+  @apply font-sans tracking-[2px] py-5 text-lg font-light;
+}

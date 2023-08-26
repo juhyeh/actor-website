@@ -1,0 +1,44 @@
+{
+  "resources": [
+    {
+      "title": "headshot-commercial",
+      "imageUrl": "/luis-meraz-headshot-commercial.png"
+    },
+    {
+      "title": "headshot-theatrical",
+      "imageUrl": "/luis-meraz-headshot-theatrical.png"
+    },
+    {
+      "title": "fci-photo1",
+      "imageUrl": "/fci-photos/317093150_594788275981968_8370018008990697149_n.jpg"
+    },
+    {
+      "title": "fci-photo2",
+      "imageUrl": "/fci-photos/317312707_594788112648651_1587292452362542723_n.jpg"
+    },
+    {
+      "title": "fci-photo3",
+      "imageUrl": "/fci-photos/317315613_594788025981993_4358579189883469521_n.jpg"
+    },
+    {
+      "title": "fci-photo4",
+      "imageUrl": "/fci-photos/317317728_594788002648662_3055624190279796917_n.jpg"
+    },
+    {
+      "title": "fci-photo5",
+      "imageUrl": "/fci-photos/317359935_594788489315280_7638117942904193823_n.jpg"
+    },
+    {
+      "title": "fci-photo6",
+      "imageUrl": "/fci-photos/319153446_606537294807066_7507555573731067737_n.jpg"
+    },
+    {
+      "title": "fci-photo7",
+      "imageUrl": "/fci-photos/319272076_606537751473687_3363244447998361236_n.jpg"
+    },
+    {
+      "title": "fci-photo8",
+      "imageUrl": "/fci-photos/319276411_606536814807114_4530974723554496004_n.jpg"
+    }
+  ]
+}
