@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="social_media_links">
         <a href="https://www.facebook.com/itsluismeraz" target="_blank">
           <Image
-            src="/facebook-logo.png"
+            src="/social-media-logos/facebook-logo.png"
             alt="facebook-logo"
             width={25}
             height={25}
@@ -16,7 +16,7 @@ const Footer = () => {
         </a>
         <a href="https://www.instagram.com/itsluismeraz/" target="_blank">
           <Image
-            src="/instagram-logo.png"
+            src="/social-media-logos/instagram-logo.png"
             alt="instagram-logo"
             width={25}
             height={25}
@@ -25,7 +25,7 @@ const Footer = () => {
         </a>
         <a href="https://twitter.com/itsluismeraz" target="_blank">
           <Image
-            src="/twitter-logo.png"
+            src="/social-media-logos/twitter-logo.png"
             alt="twitter-logo"
             width={25}
             height={25}
@@ -34,7 +34,7 @@ const Footer = () => {
         </a>
         {/* <a href="https://www.imdb.com" target="_blank">
           <Image
-            src="/imdb-logo.png"
+            src="/social-media-logos/imdb-logo.png"
             alt="imdb-logo"
             width={25}
             height={25}
@@ -44,7 +44,7 @@ const Footer = () => {
         </a>
         <a href="https://www.youtube.com" target="_blank">
           <Image
-            src="/youtube-logo.png"
+            src="/social-media-logos/youtube-logo.png"
             alt="youtube-logo"
             width={25}
             height={25}
@@ -53,7 +53,7 @@ const Footer = () => {
         </a> */}
         <a href="https://www.tiktok.com/@itsluismeraz" target="_blank">
           <Image
-            src="/tiktok-logo.png"
+            src="/social-media-logos/tiktok-logo.png"
             alt="tiktok-logo"
             width={25}
             height={25}

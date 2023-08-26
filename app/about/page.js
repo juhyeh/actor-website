@@ -9,7 +9,7 @@ const About = () => {
         <heading class="flex justify-start w-full">
           <p className="page_heading_mobile">About</p>
         </heading>
-        <p class="pb-5">
+        <p class="pb-5 font-light font-sans tracking-wide text-neutral-700/80">
           Luis Meraz is a Mexican actor and improviser. Against many odds,
           he&apos;s achieved his version of the American Dream. He worked for
           many of the tech titans of our day. With no time to waste, he&apos;s
