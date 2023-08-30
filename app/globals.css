@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost&family=Poppins:wght@400&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -118,11 +119,15 @@ body {
 
 /* Gallery Page */
 .reel {
-  @apply pb-6;
+  @apply pb-[3rem] min-[765px]:h-[12rem] min-[765px]:w-auto min-[1024px]:h-[15rem] min-[1024px]:w-auto min-[1450px]:h-[20rem] min-[1450px]:w-auto;
 }
 .reels_section {
-  @apply flex flex-col md:flex-row;
+  @apply flex flex-col min-[765px]:flex-row w-full justify-center pb-[5rem];
 }
 .gallery_titles {
-  @apply font-sans tracking-[2px] py-5 text-lg font-light;
+  @apply font_jost tracking-[4px] pb-7 min-[765px]:pb-[5rem] text-2xl min-[765px]:text-3xl font-extrabold;
+}
+
+.font_jost {
+  font-family: "Jost", sans-serif;
 }
