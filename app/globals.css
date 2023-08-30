@@ -127,6 +127,9 @@ body {
 .gallery_titles {
   @apply font_jost tracking-[4px] pb-7 min-[765px]:pb-[5rem] text-2xl min-[765px]:text-3xl font-extrabold;
 }
+.headshot_div {
+  @apply flex flex-col min-[765px]:flex-row py-[4rem];
+}
 
 .font_jost {
   font-family: "Jost", sans-serif;

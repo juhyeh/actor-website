@@ -1,5 +1,6 @@
 import GalleryCarousel from "@/components/GalleryCarousel";
 import React from "react";
+import Image from "next/image";
 
 const Gallery = () => {
   return (
@@ -20,6 +21,22 @@ const Gallery = () => {
       </section>
       <section class="w-full flex flex-col justify-center items-center">
         <h2 class="gallery_titles">PHOTOS</h2>
+        <div class="headshot_div">
+          <Image
+            src="/luis-meraz-headshot-theatrical.png"
+            width={300}
+            height={300}
+            alt="Luiz Meraz Theatrical Headshot"
+            class="pb-[6rem] min-[765px]:mr-[3rem] min-[1024px]:mr-[6rem]"
+          />
+          <Image
+            src="/luis-meraz-headshot-commercial.png"
+            width={300}
+            height={300}
+            alt="Luiz Meraz Commerical Headshot"
+            class="pb-[4rem] min-[765px]:pb-[6rem]"
+          />
+        </div>
         <div class="container">
           <GalleryCarousel />
         </div>
