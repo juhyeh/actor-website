@@ -24,17 +24,17 @@ const Gallery = () => {
         <div class="headshot_div">
           <Image
             src="/luis-meraz-headshot-theatrical.png"
-            width={300}
-            height={300}
+            width={500}
+            height={500}
             alt="Luiz Meraz Theatrical Headshot"
-            class="pb-[6rem] min-[765px]:mr-[3rem] min-[1024px]:mr-[6rem]"
+            class="object-contain pb-[4rem] min-[1160px]:mr-[2rem] min-[1378px]:mr-[6rem] min-[1545px]:mr-[10rem]"
           />
           <Image
             src="/luis-meraz-headshot-commercial.png"
-            width={300}
-            height={300}
+            width={500}
+            height={500}
             alt="Luiz Meraz Commerical Headshot"
-            class="pb-[4rem] min-[765px]:pb-[6rem]"
+            class="object-contain pb-3 min-[1160px]:pb-[4rem]"
           />
         </div>
         <div class="container">

@@ -128,7 +128,7 @@ body {
   @apply font_jost tracking-[4px] pb-7 min-[765px]:pb-[5rem] text-2xl min-[765px]:text-3xl font-extrabold;
 }
 .headshot_div {
-  @apply flex flex-col min-[765px]:flex-row py-[4rem];
+  @apply flex flex-col min-[1160px]:flex-row py-[4rem] w-full justify-center items-center;
 }
 
 .font_jost {
