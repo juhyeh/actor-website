@@ -125,7 +125,7 @@ body {
   @apply flex flex-col min-[765px]:flex-row w-full justify-center pb-[5rem];
 }
 .gallery_titles {
-  @apply font_jost tracking-[4px] pb-7 min-[765px]:pb-[4rem] text-2xl min-[765px]:text-3xl font-extrabold;
+  @apply font-mono tracking-[4px] pb-7 min-[765px]:pb-[4rem] text-2xl min-[765px]:text-4xl font-medium;
 }
 .headshot_div {
   @apply flex flex-col min-[1160px]:flex-row py-[4rem] w-full justify-center items-center pb-[7rem];

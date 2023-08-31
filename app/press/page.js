@@ -23,10 +23,10 @@ const Press = () => {
                 alt="Luis Meraz with Finest City Improv"
               />
               <div className="press_card_text">
-                <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 ">
+                <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 font-sans">
                   HAVING PURPOSE, INTENTION AND BEING TRUTHFUL WITH LUIS MERAZ!
                 </h5>
-                <p class="mb-4 text-base text-neutral-600">
+                <p class="mb-4 text-base text-neutral-600 font-sans">
                   Finest City Improv&apos;s Student Spotlight Luis Meraz
                 </p>
               </div>
