@@ -20,7 +20,7 @@ const Gallery = () => {
         </div>
       </section>
       <section class="w-full flex flex-col justify-center items-center">
-        <h2 class="gallery_titles">PHOTOS</h2>
+        <h2 class="gallery_titles">HEADSHOTS</h2>
         <div class="headshot_div">
           <Image
             src="/luis-meraz-headshot-theatrical.png"
@@ -37,6 +37,7 @@ const Gallery = () => {
             class="object-contain pb-3 min-[1160px]:pb-[4rem]"
           />
         </div>
+        <h2 class="gallery_titles">PRODUCTION</h2>
         <div class="container">
           <GalleryCarousel />
         </div>
