@@ -4,11 +4,11 @@ const Resume = () => {
   return (
     <div class="max-w-screen-md flex flex-col justify-center items-center">
       <heading class="flex justify-start w-full">
-        <p className="page_heading_mobile">Resume</p>
+        <h1 className="page_heading_mobile">Resume</h1>
       </heading>
       <a
         class="bg-black text-sm text-white py-4 px-7 mt-4"
-        href="/files/luis-meraz-actor-resume.pdf"
+        href="/luis-meraz-actor-resume.pdf"
         download
       >
         DOWNLOAD ACTOR RESUME

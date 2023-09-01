@@ -60,7 +60,7 @@ const Header = () => {
         <div class="flex">
           <FontAwesomeIcon
             icon={faBars}
-            size="lg"
+            size="xl"
             onClick={() => setToggleDropdown((prev) => !prev)}
           />
           {toggleDropdown && (

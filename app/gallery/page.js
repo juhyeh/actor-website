@@ -6,7 +6,7 @@ const Gallery = () => {
   return (
     <div class="w-screen sm:px-16 px-6 flex flex-col justify-center items-center">
       <heading class="flex justify-start w-full">
-        <p className="page_heading_mobile">Gallery</p>
+        <h1 className="page_heading_mobile">Gallery</h1>
       </heading>
       <section class="w-full flex flex-col justify-center items-center pt-[4rem] min-[1024px]:pb-[4rem]">
         <h2 class="gallery_titles">reels</h2>

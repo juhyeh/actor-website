@@ -39,7 +39,7 @@ body {
 }
 
 .dropdown_link {
-  @apply text-sm text-gray-700 hover:text-gray-500 font-medium;
+  @apply text-lg text-gray-700 hover:text-gray-500 font-medium py-1;
 }
 
 @keyframes slideInLeft {
@@ -98,7 +98,7 @@ body {
 }
 
 .socials_logo {
-  @apply px-0.5;
+  @apply px-1;
 }
 
 /* Resume Page */

@@ -9,8 +9,8 @@ const Footer = () => {
           <Image
             src="/social-media-logos/facebook-logo.png"
             alt="facebook-logo"
-            width={25}
-            height={25}
+            width={35}
+            height={35}
             className="socials_logo"
           />
         </a>
@@ -18,8 +18,8 @@ const Footer = () => {
           <Image
             src="/social-media-logos/instagram-logo.png"
             alt="instagram-logo"
-            width={25}
-            height={25}
+            width={35}
+            height={35}
             className="socials_logo"
           />
         </a>
@@ -27,8 +27,8 @@ const Footer = () => {
           <Image
             src="/social-media-logos/twitter-logo.png"
             alt="twitter-logo"
-            width={25}
-            height={25}
+            width={35}
+            height={35}
             className="socials_logo"
           />
         </a>
@@ -36,8 +36,8 @@ const Footer = () => {
           <Image
             src="/social-media-logos/imdb-logo.png"
             alt="imdb-logo"
-            width={25}
-            height={25}
+            width={35}
+            height={35}
             className="socials_logo"
           />
           <FontAwesomeIcon icon={faImdb} size="sm" style={{color: "#9e9e9e",}} />
@@ -46,8 +46,8 @@ const Footer = () => {
           <Image
             src="/social-media-logos/youtube-logo.png"
             alt="youtube-logo"
-            width={25}
-            height={25}
+            width={35}
+            height={35}
             className="socials_logo"
           />
         </a> */}
@@ -55,8 +55,8 @@ const Footer = () => {
           <Image
             src="/social-media-logos/tiktok-logo.png"
             alt="tiktok-logo"
-            width={25}
-            height={25}
+            width={35}
+            height={35}
             className="socials_logo"
           />
         </a>

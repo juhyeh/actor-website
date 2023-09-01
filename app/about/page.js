@@ -7,7 +7,7 @@ const About = () => {
     <div class="flex">
       <div class="flex flex-col items-center md:flex-row max-w-screen-md">
         <heading class="flex justify-start w-full">
-          <p className="page_heading_mobile">About</p>
+          <h1 className="page_heading_mobile">About</h1>
         </heading>
         <p class="pb-5 font-light font-sans tracking-wide text-neutral-700/80">
           Luis Meraz is a Mexican actor and improviser. Against many odds,
