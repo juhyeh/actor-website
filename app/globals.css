@@ -138,10 +138,14 @@ body {
 /* Press Page */
 
 .press_cards_container {
-  @apply flex flex-wrap w-full justify-center items-start;
+  @apply container flex flex-wrap w-full h-full justify-center lg:pt-[4rem];
 }
 
-.press_card {
+.horizontal_press_card {
+  @apply p-6 flex flex-col md:flex-row;
+}
+
+.vertical_press_card {
   @apply block bg-white rounded-md w-[18rem] h-[27rem] justify-center shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] m-4;
 }
 

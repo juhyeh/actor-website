@@ -1,38 +1,33 @@
 import React from "react";
-import Image from "next/image";
+import HorizontalPressCard from "@/components/HorizontalPressCard";
+
+const pressCardInfoList = [
+  {
+    link: "https://www.finestcityimprov.com/having-purpose-intention-and-being-truthful-with-luis-meraz/",
+    photoPath: "/press-photos/finest-city-improv-luis-meraz.jpeg",
+    alt: "Luis Meraz with Finest City Improv",
+    title: "HAVING PURPOSE, INTENTION AND BEING TRUTHFUL WITH LUIS MERAZ!",
+    description: "Finest City Improv's Student Spotlight Luis Meraz",
+  },
+];
 
 const Press = () => {
   return (
-    <div class="max-w-screen-xl w-screen sm:px-16 px-6 h-screen flex flex-col">
+    <div class="max-w-screen-xl w-screen sm:px-16 px-6 flex flex-col h-full">
       <heading class="flex justify-start w-full">
         <h1 className="page_heading_mobile">Press</h1>
       </heading>
-      <div className="press_cards_container lg:my-[4rem]">
-        <div className="press_card">
-          <a
-            href="https://www.finestcityimprov.com/having-purpose-intention-and-being-truthful-with-luis-meraz/"
-            target="_blank"
-          >
-            <div class="p-6">
-              <Image
-                class="mb-4"
-                width={300}
-                height={300}
-                style={{ objectFit: "contain" }}
-                src="/press-photos/finest-city-improv-luis-meraz.jpeg"
-                alt="Luis Meraz with Finest City Improv"
-              />
-              <div className="press_card_text">
-                <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 font-sans">
-                  HAVING PURPOSE, INTENTION AND BEING TRUTHFUL WITH LUIS MERAZ!
-                </h5>
-                <p class="mb-4 text-base text-neutral-600 font-sans">
-                  Finest City Improv&apos;s Student Spotlight Luis Meraz
-                </p>
-              </div>
-            </div>
-          </a>
-        </div>
+      <div className="press_cards_container h-full">
+        {pressCardInfoList.map((cardInfo) => (
+          <HorizontalPressCard
+            key={cardInfo.title}
+            link={cardInfo.link}
+            photoPath={cardInfo.photoPath}
+            alt={cardInfo.alt}
+            title={cardInfo.title}
+            description={cardInfo.description}
+          />
+        ))}
       </div>
     </div>
   );
