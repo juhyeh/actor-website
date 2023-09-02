@@ -2,6 +2,7 @@
 
 import React from "react";
 import { useState } from "react";
+import ManagementInfo from "@/components/ManagementInfo";
 
 const Contact = () => {
   const [firstName, setFirstName] = useState("");
@@ -104,6 +105,9 @@ const Contact = () => {
           </button>
         </div>
       </form>
+      {/* For once you have management or an agent */}
+
+      <ManagementInfo />
     </div>
   );
 };

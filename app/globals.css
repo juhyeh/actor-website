@@ -142,7 +142,7 @@ body {
 
 /* Contact Page */
 .contact_form_input {
-  @apply bg-neutral-50 border border-neutral-300  text-sm p-2.5 focus:border-blue-500 block;
+  @apply bg-neutral-50 border border-neutral-300  text-sm p-2.5 focus:border-blue-500 block text-neutral-700 tracking-[0.5px];
 }
 .contact_form_label {
   @apply pt-5 pb-2 text-neutral-600 tracking-[0.5px] text-sm;
@@ -152,4 +152,10 @@ body {
 }
 .name_label {
   @apply text-neutral-500 text-xs py-2 tracking-[0.5px];
+}
+.management_info_title {
+  @apply text-lg font-semibold text-neutral-700 pb-4 tracking-[0.5px] font-mono pt-6;
+}
+.management_info_detail {
+  @apply text-sm tracking-[0.5px] text-neutral-600/80 py-1 font-mono;
 }
