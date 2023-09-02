@@ -61,7 +61,15 @@ const Footer = () => {
           />
         </a>
       </div>
-      <div className="footer_email">contact@luismeraz.com</div>
+      {/* Email address was created as an image to stop potential bots from spamming the email address. */}
+      {/* <div className="footer_email">contact@luismeraz.com</div> */}
+      <Image
+        src="/email-address.png"
+        alt="contact@luismeraz.com"
+        width={200}
+        height={200}
+        className="footer_email"
+      />
     </div>
   );
 };
