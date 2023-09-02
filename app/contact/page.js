@@ -106,7 +106,6 @@ const Contact = () => {
         </div>
       </form>
       {/* For once you have management or an agent */}
-
       <ManagementInfo />
     </div>
   );
