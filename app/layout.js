@@ -6,8 +6,8 @@ import Header from "/components/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Grace Hwoang - Actor, Singer, Writer",
-  description: "Discover artist Grace Hwoang",
+  title: "Luis Meraz - Actor, Singer, Writer",
+  description: "Discover artist Luis Meraz",
 };
 
 export default function RootLayout({ children }) {
