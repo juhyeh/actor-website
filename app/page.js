@@ -9,7 +9,7 @@ const Home = () => {
           Luis Meraz,
         </p>
         <p class="text-neutral-700/60 text-2xl md:text-4xl pl-2 font-sans tracking-wider pb-3 actor">
-          actor
+          actor, singer, writer
         </p>
       </heading>
       <div class="container">
