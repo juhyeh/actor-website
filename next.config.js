@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+// const withImages = require("next-images"); // Import next-images plugin
+
 const nextConfig = {
   output: "export",
 
@@ -13,4 +15,5 @@ const nextConfig = {
   // distDir: 'dist',
 };
 
+// module.exports = withImages(nextConfig);
 module.exports = nextConfig;
