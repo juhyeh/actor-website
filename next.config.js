@@ -7,6 +7,7 @@ const nextConfig = {
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
   trailingSlash: true,
   images: { unoptimized: true },
+  basePath: "/actor-website",
 };
 
 // module.exports = withImages(nextConfig);
