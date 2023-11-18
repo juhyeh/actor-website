@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="social_media_links">
         <a href="https://www.facebook.com/itsluismeraz/" target="_blank">
           <Image
-            src="./social-media-logos/facebook-logo.png"
+            src="/actor-website/social-media-logos/facebook-logo.png"
             alt="facebook-logo"
             width={35}
             height={35}
@@ -16,7 +16,7 @@ const Footer = () => {
         </a>
         <a href="https://www.instagram.com/itsluismeraz/" target="_blank">
           <Image
-            src="./social-media-logos/instagram-logo.png"
+            src="/actor-website/social-media-logos/instagram-logo.png"
             alt="instagram-logo"
             width={35}
             height={35}
@@ -25,7 +25,7 @@ const Footer = () => {
         </a>
         <a href="https://twitter.com/itsluismeraz/" target="_blank">
           <Image
-            src="./social-media-logos/twitter-logo.png"
+            src="/actor-website/social-media-logos/twitter-logo.png"
             alt="twitter-logo"
             width={35}
             height={35}
@@ -52,7 +52,7 @@ const Footer = () => {
         </a> */}
         <a href="https://www.tiktok.com/@itsluismeraz/" target="_blank">
           <Image
-            src="./social-media-logos/tiktok-logo.png"
+            src="/actor-website/social-media-logos/tiktok-logo.png"
             alt="tiktok-logo"
             width={35}
             height={35}
@@ -63,7 +63,7 @@ const Footer = () => {
       {/* Email address was created as an image to stop potential bots from spamming the email address. */}
       {/* <div className="footer_email">contact@luismeraz.com</div> */}
       <Image
-        src="./email-address.png"
+        src="/actor-website/email-address.png"
         alt="contact@luismeraz.com"
         width={200}
         height={200}
