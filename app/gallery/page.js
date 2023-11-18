@@ -6,7 +6,7 @@ const Gallery = () => {
   return (
     <div className="w-screen sm:px-16 px-6 flex flex-col justify-center items-center">
       <heading className="flex justify-start w-full">
-        <h1 classNameName="page_heading_mobile">Gallery</h1>
+        <h1 className="page_heading_mobile">Gallery</h1>
       </heading>
       <section className="w-full flex flex-col justify-center items-center pt-[4rem] min-[1024px]:pb-[4rem]">
         <h2 className="gallery_titles">reels</h2>
@@ -26,14 +26,14 @@ const Gallery = () => {
         <h2 className="gallery_titles">headshots</h2>
         <div className="headshot_div">
           <Image
-            src="/luis-meraz-headshot-theatrical.png"
+            src="./luis-meraz-headshot-theatrical.png"
             width={500}
             height={500}
             alt="Luiz Meraz Theatrical Headshot"
             className="object-contain pb-[4rem] min-[1160px]:mr-[2rem] min-[1378px]:mr-[6rem] min-[1545px]:mr-[10rem]"
           />
           <Image
-            src="/luis-meraz-headshot-commercial.png"
+            src="./luis-meraz-headshot-commercial.png"
             width={500}
             height={500}
             alt="Luiz Meraz Commerical Headshot"

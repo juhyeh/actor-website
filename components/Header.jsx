@@ -100,13 +100,13 @@ const Header = () => {
               >
                 Press
               </Link>
-              <Link
+              {/* <Link
                 href="/contact"
                 className="dropdown_link"
                 onClick={() => setToggleDropdown(false)}
               >
                 Contact
-              </Link>
+              </Link> */}
             </div>
           )}
         </div>

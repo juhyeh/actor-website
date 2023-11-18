@@ -46,11 +46,11 @@ const Resume = () => {
           <p>Student Night Host, Finest City Improv, Skyler Lee</p>
         </div>
       </div>
-      <hr class="my-12 h-0.5 border-t-0 bg-neutral-400/50 w-full" />
+      <hr className="my-12 h-0.5 border-t-0 bg-neutral-400/50 w-full" />
       <div className="resume_section">
         <div className="resume_section_title">SKILLS</div>
         <div className="resume_body">
-          <p class="leading-6">
+          <p className="leading-6">
             Climbing, Cycling, Driving, Free diving, Hiking, Improvisation,
             Kickboxing, Sailing, Scuba, Snorkeling, Snowboarding, Spanish,
             Surfing, Swimming, Wind Surfing, Yoga
