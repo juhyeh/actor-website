@@ -1,5 +1,4 @@
 /** @type {import('next').NextConfig} */
-// const withImages = require("next-images"); // Import next-images plugin
 
 const nextConfig = {
   output: "export",
@@ -10,5 +9,4 @@ const nextConfig = {
   basePath: "/actor-website",
 };
 
-// module.exports = withImages(nextConfig);
 module.exports = nextConfig;
