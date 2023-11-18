@@ -53,17 +53,17 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div class="carousel">
-      <div class="relative overflow-hidden">
-        <div class="flex justify-between absolute top left w-full h-full">
+    <div className="carousel">
+      <div className="relative overflow-hidden">
+        <div className="flex justify-between absolute top left w-full h-full">
           <button
             onClick={movePrev}
-            class="hover:bg-slate-900/40 text-white w-10 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 z-10 p-0 m-0 transition-all ease-in-out duration-300"
+            className="hover:bg-slate-900/40 text-white w-10 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 z-10 p-0 m-0 transition-all ease-in-out duration-300"
             disabled={isDisabled("prev")}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-12 w-20 -ml-5"
+              className="h-12 w-20 -ml-5"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -75,16 +75,16 @@ const Carousel = () => {
                 d="M15 19l-7-7 7-7"
               />
             </svg>
-            <span class="sr-only">Prev</span>
+            <span className="sr-only">Prev</span>
           </button>
           <button
             onClick={moveNext}
-            class="hover:bg-slate-900/40 text-white w-10 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 z-10 p-0 m-0 transition-all ease-in-out duration-300"
+            className="hover:bg-slate-900/40 text-white w-10 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 z-10 p-0 m-0 transition-all ease-in-out duration-300"
             disabled={isDisabled("next")}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-12 w-20 -ml-5"
+              className="h-12 w-20 -ml-5"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -96,28 +96,28 @@ const Carousel = () => {
                 d="M9 5l7 7-7 7"
               />
             </svg>
-            <span class="sr-only">Next</span>
+            <span className="sr-only">Next</span>
           </button>
         </div>
         <div
           ref={carousel}
-          class="carousel-container relative flex gap-0.5 overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0"
+          className="carousel-container relative flex gap-0.5 overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0"
         >
           {data.resources.map((resource, index) => {
             return (
               <div
                 key={index}
-                class="carousel-item text-center relative w-[auto] h-[20rem] md:w-[auto] md:h-[36rem] snap-start"
+                className="carousel-item text-center relative w-[auto] h-[20rem] md:w-[auto] md:h-[36rem] snap-start"
               >
                 <a
                   href={resource.link}
-                  class="h-full w-full aspect-video block bg-origin-padding bg-left-top bg-cover bg-no-repeat z-0"
+                  className="h-full w-full aspect-video block bg-origin-padding bg-left-top bg-cover bg-no-repeat z-0"
                   style={{ backgroundImage: `url(${resource.imageUrl || ""})` }}
                 >
                   <Image
                     src={resource.imageUrl || ""}
                     alt={resource.title}
-                    class="w-full aspect-auto object-contain hidden"
+                    className="w-full aspect-auto object-contain hidden"
                     fill
                   />
                 </a>

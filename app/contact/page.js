@@ -16,8 +16,8 @@ const Contact = () => {
   };
 
   return (
-    <div class="w-full md:max-w-screen-md flex flex-col justify-center items-center">
-      <heading class="flex justify-start w-full">
+    <div className="w-full md:max-w-screen-md flex flex-col justify-center items-center">
+      <heading className="flex justify-start w-full">
         <h1 className="page_heading_mobile">Contact</h1>
       </heading>
       <form onSubmit={handleSubmit} className="flex flex-col w-full">

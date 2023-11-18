@@ -2,18 +2,18 @@ import React from "react";
 
 const Resume = () => {
   return (
-    <div class="max-w-screen-md flex flex-col justify-center items-center">
-      <heading class="flex justify-start w-full">
+    <div className="max-w-screen-md flex flex-col justify-center items-center">
+      <heading className="flex justify-start w-full">
         <h1 className="page_heading_mobile">Resume</h1>
       </heading>
       <a
-        class="bg-black text-sm text-white py-4 px-7 mt-4"
+        className="bg-black text-sm text-white py-4 px-7 mt-4"
         href="/luis-meraz-actor-resume.pdf"
         download
       >
         DOWNLOAD ACTOR RESUME
       </a>
-      <hr class="my-12 h-0.5 border-t-0 bg-neutral-400/50 w-full" />
+      <hr className="my-12 h-0.5 border-t-0 bg-neutral-400/50 w-full" />
       <div className="resume_section">
         <div className="resume_section_title">THEATER</div>
         <div className="resume_body">
@@ -23,7 +23,7 @@ const Resume = () => {
           <p>SPREAD, Supporing, Finest City Improv</p>
         </div>
       </div>
-      <hr class="my-12 h-0.5 border-t-0 bg-neutral-400/50 w-full" />
+      <hr className="my-12 h-0.5 border-t-0 bg-neutral-400/50 w-full" />
       <div className="resume_section">
         <div className="resume_section_title">TRAINING</div>
         <div className="resume_body">
@@ -39,7 +39,7 @@ const Resume = () => {
           </p>
         </div>
       </div>
-      <hr class="my-12 h-0.5 border-t-0 bg-neutral-400/50 w-full" />
+      <hr className="my-12 h-0.5 border-t-0 bg-neutral-400/50 w-full" />
       <div className="resume_section">
         <div className="resume_section_title">HOSTING</div>
         <div className="resume_body">

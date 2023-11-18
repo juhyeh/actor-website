@@ -12,10 +12,10 @@ const Header = () => {
   const pathName = usePathname();
 
   return (
-    <nav class="w-full pb-8 pt-3 top-0">
+    <nav className="w-full pb-8 pt-3 top-0">
       {/** Desktop Navigation */}
-      <div class="sm:flex hidden justify-center items-center">
-        <div class="flex justify-center items-center p-10 gap-[8vw]">
+      <div className="sm:flex hidden justify-center items-center">
+        <div className="flex justify-center items-center p-10 gap-[8vw]">
           <Link
             href="/"
             className={pathName == "/" ? "black_underline" : "black_btn"}
@@ -56,8 +56,8 @@ const Header = () => {
       </div>
 
       {/** Mobile Navigation */}
-      <div class="sm:hidden flex absolute p-5 top-0 right-0">
-        <div class="flex">
+      <div className="sm:hidden flex absolute p-5 top-0 right-0">
+        <div className="flex">
           <FontAwesomeIcon
             icon={faBars}
             size="xl"

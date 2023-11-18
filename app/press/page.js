@@ -13,8 +13,8 @@ const pressCardInfoList = [
 
 const Press = () => {
   return (
-    <div class="max-w-screen-xl w-screen sm:px-16 px-6 flex flex-col h-full">
-      <heading class="flex justify-start w-full">
+    <div className="max-w-screen-xl w-screen sm:px-16 px-6 flex flex-col h-full">
+      <heading className="flex justify-start w-full">
         <h1 className="page_heading_mobile">Press</h1>
       </heading>
       <div className="press_cards_container h-full">

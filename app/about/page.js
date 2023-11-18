@@ -4,12 +4,12 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div class="flex">
-      <div class="flex flex-col items-center md:flex-row max-w-screen-md">
-        <heading class="flex justify-start w-full">
+    <div className="flex">
+      <div className="flex flex-col items-center md:flex-row max-w-screen-md">
+        <heading className="flex justify-start w-full">
           <h1 className="page_heading_mobile">About</h1>
         </heading>
-        <p class="pb-5 font-light font-sans tracking-wide text-neutral-700/80">
+        <p className="pb-5 font-light font-sans tracking-wide text-neutral-700/80">
           Luis Meraz is a Mexican actor and improviser. Against many odds,
           he&apos;s achieved his version of the American Dream. He worked for
           many of the tech titans of our day. With no time to waste, he&apos;s
@@ -24,7 +24,7 @@ const About = () => {
           width={300}
           height={300}
           alt="Luiz Meraz Photo"
-          class="py-5"
+          className="py-5"
         />
       </div>
     </div>
