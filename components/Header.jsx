@@ -46,12 +46,12 @@ const Header = () => {
           >
             PRESS
           </Link>
-          <Link
+          {/* <Link
             href="/contact"
             className={pathName == "/contact" ? "black_underline" : "black_btn"}
           >
             CONTACT
-          </Link>
+          </Link> */}
         </div>
       </div>
 
