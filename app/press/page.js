@@ -4,7 +4,7 @@ import HorizontalPressCard from "@/components/HorizontalPressCard";
 const pressCardInfoList = [
   {
     link: "https://www.finestcityimprov.com/having-purpose-intention-and-being-truthful-with-luis-meraz/",
-    photoPath: "/press-photos/finest-city-improv-luis-meraz.jpeg",
+    photoPath: "./press-photos/finest-city-improv-luis-meraz.jpeg",
     alt: "Luis Meraz with Finest City Improv",
     title: "HAVING PURPOSE, INTENTION AND BEING TRUTHFUL WITH LUIS MERAZ!",
     description: "Finest City Improv's Student Spotlight Luis Meraz",

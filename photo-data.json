@@ -2,87 +2,87 @@
   "resources": [
     {
       "title": "fci-photo1",
-      "imageUrl": "/fci-photos/317093150_594788275981968_8370018008990697149_n.jpg"
+      "imageUrl": "./fci-photos/317093150_594788275981968_8370018008990697149_n.jpg"
     },
     {
       "title": "fci-photo2",
-      "imageUrl": "/fci-photos/317312707_594788112648651_1587292452362542723_n.jpg"
+      "imageUrl": "./fci-photos/317312707_594788112648651_1587292452362542723_n.jpg"
     },
     {
       "title": "fci-photo3",
-      "imageUrl": "/fci-photos/317315613_594788025981993_4358579189883469521_n.jpg"
+      "imageUrl": "./fci-photos/317315613_594788025981993_4358579189883469521_n.jpg"
     },
     {
       "title": "fci-photo4",
-      "imageUrl": "/fci-photos/317317728_594788002648662_3055624190279796917_n.jpg"
+      "imageUrl": "./fci-photos/317317728_594788002648662_3055624190279796917_n.jpg"
     },
     {
       "title": "fci-photo5",
-      "imageUrl": "/fci-photos/317359935_594788489315280_7638117942904193823_n.jpg"
+      "imageUrl": "./fci-photos/317359935_594788489315280_7638117942904193823_n.jpg"
     },
     {
       "title": "fci-photo6",
-      "imageUrl": "/fci-photos/319153446_606537294807066_7507555573731067737_n.jpg"
+      "imageUrl": "./fci-photos/319153446_606537294807066_7507555573731067737_n.jpg"
     },
     {
       "title": "fci-photo7",
-      "imageUrl": "/fci-photos/319272076_606537751473687_3363244447998361236_n.jpg"
+      "imageUrl": "./fci-photos/319272076_606537751473687_3363244447998361236_n.jpg"
     },
     {
       "title": "fci-photo8",
-      "imageUrl": "/fci-photos/319276411_606536814807114_4530974723554496004_n.jpg"
+      "imageUrl": "./fci-photos/319276411_606536814807114_4530974723554496004_n.jpg"
     },
     {
       "title": "fci-photo9",
-      "imageUrl": "/fci-photos/319338131_606536828140446_8166704995902185901_n.jpg"
+      "imageUrl": "./fci-photos/319338131_606536828140446_8166704995902185901_n.jpg"
     },
     {
       "title": "fci-photo10",
-      "imageUrl": "/fci-photos/319537778_606540108140118_6785242783875287642_n.jpg"
+      "imageUrl": "./fci-photos/319537778_606540108140118_6785242783875287642_n.jpg"
     },
     {
       "title": "fci-photo11",
-      "imageUrl": "/fci-photos/322804613_1221401211777957_8177562151516748901_n.jpg"
+      "imageUrl": "./fci-photos/322804613_1221401211777957_8177562151516748901_n.jpg"
     },
     {
       "title": "fci-photo12",
-      "imageUrl": "/fci-photos/322829764_942543620463279_2711749296766104937_n.jpg"
+      "imageUrl": "./fci-photos/322829764_942543620463279_2711749296766104937_n.jpg"
     },
     {
       "title": "fci-photo13",
-      "imageUrl": "/fci-photos/323022364_1303281173796494_3354036336818143007_n.jpg"
+      "imageUrl": "./fci-photos/323022364_1303281173796494_3354036336818143007_n.jpg"
     },
     {
       "title": "fci-photo14",
-      "imageUrl": "/fci-photos/334982055_734959671623975_4938856791028226140_n.jpg"
+      "imageUrl": "./fci-photos/334982055_734959671623975_4938856791028226140_n.jpg"
     },
     {
       "title": "fci-photo15",
-      "imageUrl": "/fci-photos/335275208_1254707355131633_290226983961285505_n.jpg"
+      "imageUrl": "./fci-photos/335275208_1254707355131633_290226983961285505_n.jpg"
     },
     {
       "title": "fci-photo16",
-      "imageUrl": "/fci-photos/336498306_2215916815257071_6149980752783476984_n.jpg"
+      "imageUrl": "./fci-photos/336498306_2215916815257071_6149980752783476984_n.jpg"
     },
     {
       "title": "fci-photo17",
-      "imageUrl": "/fci-photos/345655212_193393430285273_7249690883390488348_n.jpg"
+      "imageUrl": "./fci-photos/345655212_193393430285273_7249690883390488348_n.jpg"
     },
     {
       "title": "fci-photo18",
-      "imageUrl": "/fci-photos/346469510_651158586847518_53566271110473098_n.jpg"
+      "imageUrl": "./fci-photos/346469510_651158586847518_53566271110473098_n.jpg"
     },
     {
       "title": "fci-photo19",
-      "imageUrl": "/fci-photos/346954823_896186674813404_8838018443409822886_n.jpg"
+      "imageUrl": "./fci-photos/346954823_896186674813404_8838018443409822886_n.jpg"
     },
     {
       "title": "fci-photo20",
-      "imageUrl": "/fci-photos/359783447_770331001761027_6976492835106869840_n.jpg"
+      "imageUrl": "./fci-photos/359783447_770331001761027_6976492835106869840_n.jpg"
     },
     {
       "title": "fci-photo21",
-      "imageUrl": "/fci-photos/360136629_770330771761050_5926443869071026438_n.jpg"
+      "imageUrl": "./fci-photos/360136629_770330771761050_5926443869071026438_n.jpg"
     }
   ]
 }

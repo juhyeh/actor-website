@@ -23,14 +23,14 @@ const Gallery = () => {
         <h2 class="gallery_titles">headshots</h2>
         <div class="headshot_div">
           <Image
-            src="/luis-meraz-headshot-theatrical.png"
+            src="./luis-meraz-headshot-theatrical.png"
             width={500}
             height={500}
             alt="Luiz Meraz Theatrical Headshot"
             class="object-contain pb-[4rem] min-[1160px]:mr-[2rem] min-[1378px]:mr-[6rem] min-[1545px]:mr-[10rem]"
           />
           <Image
-            src="/luis-meraz-headshot-commercial.png"
+            src="./luis-meraz-headshot-commercial.png"
             width={500}
             height={500}
             alt="Luiz Meraz Commerical Headshot"
