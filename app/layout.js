@@ -6,7 +6,7 @@ import Header from "/components/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Luis Meraz - Actor, Singer, Writer",
+  title: "Luis Meraz - Actor",
   description: "Discover artist Luis Meraz",
 };
 
