@@ -20,7 +20,7 @@ const About = () => {
           already?
         </p>
         <Image
-          src="../../../public/luis-meraz-headshot-commercial.png"
+          src="../../public/luis-meraz-headshot-commercial.png"
           width={300}
           height={300}
           alt="Luiz Meraz Photo"
