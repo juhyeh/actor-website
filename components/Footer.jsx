@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="social_media_links">
         {/* <a href="https://www.facebook.com/" target="_blank">
           <Image
-            src="/social-media-logos/facebook-logo.png"
+            src="./social-media-logos/facebook-logo.png"
             alt="facebook-logo"
             width={35}
             height={35}
@@ -16,7 +16,7 @@ const Footer = () => {
         </a> */}
         <a href="https://www.instagram.com/grace.juhe/" target="_blank">
           <Image
-            src="/social-media-logos/instagram-logo.png"
+            src="./social-media-logos/instagram-logo.png"
             alt="instagram-logo"
             width={35}
             height={35}
@@ -25,7 +25,7 @@ const Footer = () => {
         </a>
         {/* <a href="https://twitter.com/" target="_blank">
           <Image
-            src="/social-media-logos/twitter-logo.png"
+            src="./social-media-logos/twitter-logo.png"
             alt="twitter-logo"
             width={35}
             height={35}
@@ -34,7 +34,7 @@ const Footer = () => {
         </a> */}
         <a href="https://www.youtube.com/@GraceJuhe" target="_blank">
           <Image
-            src="/social-media-logos/youtube-logo.png"
+            src="./social-media-logos/youtube-logo.png"
             alt="youtube-logo"
             width={35}
             height={35}
@@ -43,7 +43,7 @@ const Footer = () => {
         </a>
         <a href="https://www.imdb.com/name/nm14845746/" target="_blank">
           <Image
-            src="/social-media-logos/imdb-logo.png"
+            src="./social-media-logos/imdb-logo.png"
             alt="imdb-logo"
             width={35}
             height={35}
@@ -52,7 +52,7 @@ const Footer = () => {
         </a>
         {/* <a href="https://www.tiktok.com/" target="_blank">
           <Image
-            src="/social-media-logos/tiktok-logo.png"
+            src="./social-media-logos/tiktok-logo.png"
             alt="tiktok-logo"
             width={35}
             height={35}
